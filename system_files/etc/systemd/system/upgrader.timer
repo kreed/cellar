@@ -1,0 +1,8 @@
+[Unit]
+Description=Upgrader - scheduled upgrades for CoreOS
+
+[Timer]
+OnCalendar=Mon..Thu 2:00:00
+
+[Install]
+WantedBy=default.target
